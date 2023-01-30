@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html styles</title>
+</head>
+<body>
+    <h2>HTML styles</h2>
+    <!--You can use html style functions to style your codes in html -->
+    <!--This is syntax of adding style in html-->
+    <!--style="property: value;"-->
+
+    <p style="color: red;">This is a paragraph that I want to style using html style</p>
+    <!--Color means color of the fonts-->
+    <p style="background:yellow;">This is another paragraph that I want to style using html style</p>
+    <!--background-color means background color of the paragraph-->
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">This is yet another paragraph that I want to style using html style</p>
+    <!--font family means font of the text-->
+</body>
+</html>
