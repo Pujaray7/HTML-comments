@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Formating</title>
+</head>
+<body style="background-color: rgb(228, 212, 219);">
+    <h1 style="font-weight: bold; color: red; font-family: Verdana, Geneva, Tahoma, sans-serif;">The lion and the mouse</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyTuv7xCoLlGIkb6MLvoLknzW1T6N3bk7ueQ&usqp=CAU" alt="">
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: darkblue;">When a lion was resting in the jungle, a mouse began racing up and down his body for amusement. The lion’s sleep was interrupted, and he awoke enraged. The lion was going to eat the mouse when the mouse begged him to let him go. “I assure you, if you save me, I will be of immense help to you in the future.” The lion laughed at the mouse’s self-assurance and freed him.</p>
+
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: darkblue;">A group of hunters arrived in the forest one day and captured the lion. They had him tied to a tree. The lion began to roar as he struggled to get out. Soon, the mouse passed by and spotted the lion in distress. He dashed off, biting on the ropes to free the lion, and the two hurried off into the woods.</p>
+</body>
+</html>
