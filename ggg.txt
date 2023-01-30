@@ -1,0 +1,64 @@
+nav.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+        /*a:link{
+            color: blue;
+        }
+        a:visited{
+            color: green;
+        }*/
+        a:hover{
+            
+            background-color: rgb(30, 156, 30);
+        }
+        a:active{
+            color:blueviolet;
+        }
+        li{
+            display: inline;
+            border-right: 1px solid #bbb;
+        
+        }
+        list:last-child{
+            border: none;
+        }
+         ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+         }
+         li a{
+            list-style-type: none;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 170%;
+
+
+         }
+
+    </style>
+</head>
+<body>
+    <ul>
+    <li><a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.amazon.in">Amazon</a></li>
+    <li><a href="https://www.flipkart.com">Flipkart</a></li>
+    <li><a href="https://www.facebook.com">Facebook</a></li>
+    <li><a href="https://www.instagram.com">Instagram</a></li>
+    <li><a href="https://www.w3schools.com">W3schools</a></li>
+    <li><a href="https://www.meesho.com"> Meesho</a></li>
+    <li><a href="https://www.nykaa.com">Nykaa</a></li>
+    <li><a href="https://www.myntra.com">Myntra</a></li>
+    </ul>
+</body>
+</html>
