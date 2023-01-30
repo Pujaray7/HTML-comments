@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        ul li{
+            float: left;
+            padding: 5px;
+            list-style: none;
+            margin-top: 5px;
+            background-color: white;
+            background-color: 1px solid rgb(27, 25, 25);
+            
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 22px;
+            padding: 25px;
+            color: rgb(20, 18, 18);
+        }
+        body{
+            background-color: palevioletred;
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 20px;
+            margin-bottom: 3px;
+
+        }
+        .div1{
+          margin: 8px;
+        }
+        
+        input[type=text]{
+            font-size: 21px;
+            width: 33.33%;
+            border-radius: 18px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover{
+    border-bottom: 2px solid red;
+}
+.div1{
+    text-decoration: none;
+
+}
+        
+    </style>
+</head>
+<body>
+    
+    
+    <h1>Bold</h1>
+    <form action="backend.php">
+        
+        <input type="text" name="search" id="search" placeholder="Search for sarees, t-shirts & more">
+        <button type="submit" id="btn"><i class="fa fa-search" style="font-size:30px;  "></i>Search</button>
+    </form>
+    <span></span>
+    <hr>
+    <div>
+    <ul>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" >Women</a>
+            <div class="dropdown-content">
+              <a href="#">Saree</a>
+              <a href="#">Suits</a>
+  
+              <a href="#">Skirt</a>
+              <a href="#">Top</a>
+              <a href="#">Gown</a>
+              <a href="#">lahenga</a>
+              <a href="#">Jumpsuits</a>
+              <a href="#">Jeans</a>
+            </div>
+          </li>
+        
+        
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" >Men</a>
+          <div class="dropdown-content">
+            <a href="#">Watch</a>
+            <a href="#">Shoes</a>
+
+            <a href="#">Shirt</a>
+            <a href="#">Kurta</a>
+            <a href="#">Shirt</a>
+            <a href="#">Jeans</a>
+          </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" >Kids</a>
+            <div class="dropdown-content">
+              <a href="#">Toys</a>
+              <a href="#">Shoes</a>
+  
+              <a href="#">Stationary</a>
+              <a href="#">Books</a>
+              <a href="#">Bags</a>
+              <a href="#">Babycare</a>
+            </div>
+         
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" >Grocery</a>
+            <div class="dropdown-content">
+              <a href="#">Sugar</a>
+              <a href="#">Cookies</a>
+  
+              <a href="#">Chocolates</a>
+              <a href="#">Fresh Vegetable</a>
+              <a href="#">Milk</a>
+              <a href="#">Eggs</a>
+            </div>
+          </li> 
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" >Beauty</a>
+            <div class="dropdown-content">
+              <a href="#">Eyes</a>
+              <a href="#">Nails</a>
+              <a href="#">Cleanser</a>
+              <a href="#">Shampoo</a>
+              <a href="#">Serum</a>
+              <a href="#">lips</a>
+              <a href="#">Face</a>
+              <a href="#">Hair Oil</a>
+              <a href="#">Deodorants</a>
+            </div>
+          
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" >Jwellery</a>
+            <div class="dropdown-content">
+              <a href="#">Errings</a>
+              <a href="#">Bracelet</a>
+               <a href="#">Anklet</a>
+               <a href="#">Tiara</a>
+              <a href="#">Chain</a>
+              <a href="#">Bangles</a>
+              <a href="#">Necklace</a>
+              <a href="#">Jeans</a>
+            </div>
+          </li>
+      </ul>
+     </div> 
+     
+    <div class="div1">
+        
+        <a href="#home"><i class="fa fa-fw fa-home" style="font-size:36px; color: black; margin-left: 14px;"></i></a>
+       
+        
+    </div>
+    
+</body>
+</html>
